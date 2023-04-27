@@ -1,12 +1,10 @@
 #!/usr/bin/env bash
-# This script displays the string "Best School" 10 times.
-# Using while loop.
-# A counter is generated to note the number of iterations.
+# Displays 'Best School' in stdout 10 times using a while loop
 
-count=0
+index=0
 
-while[$count -lt 10]
+while [ $index -lt 10 ]
 do
-	echo "Best School"
-	count = $((count+1))
+  echo "Best School"
+  ((index++))
 done
