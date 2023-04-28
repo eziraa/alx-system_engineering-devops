@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
-# well well well
-
-file="/tmp/my_process"
+# This script is doing a lot of things.
 
 while true; do
-  echo "I am alive!" >> "$file"
-  sleep 2
+	echo "I am alive!" >>/tmp/my_process
+	sleep 2
 done

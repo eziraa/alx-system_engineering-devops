@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# list all bash processes
+# script that displays lines containing the bash word, getting PID of bash proc
 # shellcheck disable=SC2009
-ps -auxf | grep bash
+ps -faux | grep bash
